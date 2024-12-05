@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 *,
 *::before,
@@ -157,6 +157,10 @@ footer {
 }
 
 @media screen and (max-width: 48rem) {
+    body {
+        padding: 2.5rem;
+    }
+
     .container {
         max-width: 28.5rem;
     }
@@ -167,12 +171,16 @@ footer {
 }
 
 @media screen and (max-width: 23.4375rem) {
+    body {
+        padding: 0 1.5rem;
+    }
+
     .container {
         max-width: 20.4375rem;
-        padding: 1.5rem
+        padding: 1.5rem;
     }
 
     .links-container {
-        width: 17.4375rem;
+        max-width: 17.4375rem;
     }
 }
